@@ -1,0 +1,52 @@
+# Project Configuration
+project:
+  name: "Credit Risk & Fraud Analytics"
+  version: "1.0.0"
+  description: "Financial analytics for credit risk modeling and fraud detection"
+  author: "Ram Bharat Chowdary Moturi"
+
+# Data Processing
+data:
+  paths:
+    raw: "data/raw/"
+    processed: "data/processed/"
+    sample: "data/sample/"
+    external: "data/external/"
+  
+  quality:
+    max_missing_percentage: 0.1
+    min_unique_values: 2
+    outlier_threshold: 3.0
+
+# Model Configuration
+models:
+  credit_risk:
+    algorithm: "xgboost"
+    hyperparameters:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+    validation:
+      test_size: 0.2
+      cv_folds: 5
+      scoring: "roc_auc"
+    
+  fraud_detection:
+    algorithm: "isolation_forest"
+    hyperparameters:
+      contamination: 0.1
+      n_estimators: 100
+    threshold:
+      fraud_score: 0.7
+
+# Risk Management
+risk:
+  credit:
+    low_risk: 0.05
+    medium_risk: 0.15
+    high_risk: 0.30
+  
+  fraud:
+    low_risk: 0.1
+    medium_risk: 0.5
+    high_risk: 0.8
