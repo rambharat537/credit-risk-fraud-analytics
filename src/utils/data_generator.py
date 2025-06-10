@@ -3,7 +3,7 @@ Financial Data Generator
 Generates synthetic financial datasets for credit risk and fraud detection analysis.
 
 Author: Ram Bharat Chowdary Moturi
-Date: 2024
+Date: 2025
 """
 
 import pandas as pd
