@@ -227,9 +227,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ram Bharat Chowdary Moturi**  
 Financial Data Analyst | FinTech Risk Modeling Specialist
 
+[![Phone](https://img.shields.io/badge/Phone-%2B1%20(267)%20805--6810-green?style=flat&logo=phone&logoColor=white)](tel:+12678056810)
+[![Email](https://img.shields.io/badge/Email-rammoturi09@gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:rammoturi09@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rambharatmoturi)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rambharat537)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rambharatmoturi@email.com)
 
 ---
 
